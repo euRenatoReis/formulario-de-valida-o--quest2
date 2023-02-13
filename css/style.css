@@ -1,0 +1,140 @@
+
+body{
+
+    height: 100vh;
+    height: 100vh;
+
+    
+}
+
+main{
+
+    height: 100%;
+    max-width: 100%;
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-position-y: center;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo{
+
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-justify: auto;   
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 100px;
+    top: 250px;
+    gap: 50px;
+    padding: 5px;
+    color: white;
+}
+
+.conteudo h1{
+
+    font-size: 25px;
+    font-weight: 900px;
+    line-height: 25px;
+   
+}
+
+.conteudo p{
+
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 19px;
+}
+
+.cartaoformulario{
+
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   width: 500px;
+   height: 620px;
+   position: absolute;
+   top: 30px;
+   right: 110px;
+   padding: 50px;
+   gap: 30px;
+   justify-content: space-between;
+
+
+}  
+
+
+.botaoenviar{
+
+    background-color: #3CCC87;
+    width: 502px;
+    height: 35px;
+}
+
+.botaoenviar:hover{ background-color: #31a46c;}
+
+.aviso{
+
+   display: flex;
+   left: 10px;
+   align-self: flex-start;
+   color: red
+
+}
+
+
+.cartaoformulario form{
+
+   gap: 10px;
+   display: flex;
+   flex-direction: column;
+   padding-top: 30px;
+
+}
+
+form input{
+
+    Width: 480px;
+    height: 45px;
+    justify-content: center;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.campo.mensagem{
+
+    width: 480px;
+    height: 300px;
+    text-align: start;
+   
+}
+
+
+.campo.tudocerto{
+
+    border: 1px solid rgb(0, 255, 34);
+    
+}
+
+.campo.tudoerrado{
+
+    border: 1px solid rgb(255, 0, 0);
+    
+}
+
+.aviso.oculto{
+
+   opacity: 0;
+
+}
+ 
